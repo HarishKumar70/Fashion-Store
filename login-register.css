@@ -21,6 +21,10 @@ nav{
     margin-inline: 12px;
 }
 
+.nav-link:hover{
+    color: rgb(8,129,121);
+}
+
 .active{
     color: rgb(8,129,121) !important;
 }
@@ -47,4 +51,31 @@ nav{
     padding-inline: 15px;
 }
 
+/* forms */
+.login{
+    width: 650px;
+    height: 300px;
+    margin-left: 90px;
+    margin-top: 60px;
+}
+
+.register{
+    width: 650px;
+    margin-left: 40px;
+    margin-top: 60px;
+}
+
+.form-control{
+    margin-block:15px;
+}
+
+.button{
+    background-color: rgb(8,129,121);
+    font-weight: 600;
+}
+
+.button:hover{
+    color: rgb(8,129,121) !important;
+    border-color: rgb(8,129,121) !important;
+}
 

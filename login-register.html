@@ -21,7 +21,7 @@
          <!-- nav-bar -->
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <img class="ms-2 me-5" src="./Images/logo1.png" height="100px" width="130px">
+                <img class="ms-2 me-4" src="./Images/logo.png">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -29,19 +29,19 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Home</a>
+                            <a class="nav-link" href="./index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shop</a>
+                            <a class="nav-link" href="./shop.html">Shop</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">My Account</a>
+                            <a class="nav-link" href="./accounts.html">My Account</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Compare</a>
+                            <a class="nav-link" href="./compare.html">Compare</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Login</a>
+                            <a class="nav-link active" aria-current="page" href="./login-register.html">Login</a>
                         </li>
                     </ul>
                     
@@ -69,6 +69,29 @@
             <p>Login/Register</p>
         </div>
     </header>
+
+    <!-- Forms -->
+    <main class="d-flex">
+        <div class="login border p-5">
+            <h4>Login</h4>
+            <form>
+                <input type="email" name="email" placeholder="Your Email" class="form-control">
+                <input type="password" name="password" placeholder="Your Password" class="form-control">
+                <button class="button btn text-white px-4 py-3 border-3">Login</button>
+            </form>
+        </div>
+
+        <div class="register border p-5">
+            <h4>Create an Account</h4>
+            <form>
+                <input type="text" name="username" placeholder="Username" class="form-control">
+                <input type="email" name="email" placeholder="Your Email" class="form-control">
+                <input type="password" name="password" placeholder="Your Password" class="form-control">
+                <input type="password" name="confirm-password" placeholder="Confirm Password" class="form-control">
+                <button class="button btn text-white px-4 py-3 border-3">Submit & Register</button>
+            </form>
+        </div>
+    </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
