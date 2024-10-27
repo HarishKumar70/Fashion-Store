@@ -10,3 +10,31 @@
     font-weight:700;
 }
 
+/* nav-bar */
+nav{
+    margin-inline: 80px;
+}
+
+.nav-link{
+    color: black;
+    font-weight:600 !important;
+    margin-inline: 12px;
+}
+
+.active{
+    color: rgb(8,129,121) !important;
+}
+
+.searchbar{
+    width: 300px;
+}
+
+.icons{
+    margin-inline: 15px;
+}
+
+.badge{
+    background-color: rgb(8,129,121);
+}
+
+
