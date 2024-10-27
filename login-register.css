@@ -1,0 +1,12 @@
+/*Header 1st Row */
+.hrow1{
+    background-color: #E9F6EB;
+    border-color: rgb(8,129,121) !important;
+    padding-inline: 100px;
+}
+
+.supervalues{
+    color:#8F8F8B;
+    font-weight:700;
+}
+
