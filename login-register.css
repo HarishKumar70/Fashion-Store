@@ -37,4 +37,14 @@ nav{
     background-color: rgb(8,129,121);
 }
 
+/* Header 3rd row */
+.hrow3{
+    background-color: rgb(237, 237, 237);
+    padding-left: 80px;
+}
+
+.hrow3>p{
+    padding-inline: 15px;
+}
+
 
