@@ -79,3 +79,49 @@ nav{
     border-color: rgb(8,129,121) !important;
 }
 
+/* Footer */
+/* Section 1 */
+.sec1{
+    background-color: rgb(173,204,197);
+    padding-block: 35px !important;
+}
+
+.info{
+    font-weight:600 !important;
+}
+
+.email{
+    width: 400px;
+}
+
+.subscribe:hover{
+    background-color: rgb(8,129,121) !important;
+}
+
+/* Section 2 */
+.links>a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding-bottom: 8px;
+}
+
+.sec2{
+    width: 87vw;
+    padding-left: 32px;
+}
+
+/* Section 3 & Social Icons */
+.sec3,.social{
+    width: 87vw;
+    margin: auto;
+}
+
+.fa-brands{
+    padding-right: 15px;
+}
+
+.fa-brands:hover{
+    color: rgb(8,129,121);
+}
+
