@@ -51,6 +51,47 @@ nav{
     padding-inline: 10px;
 }
 
+/* main section */
+main{
+    margin-inline: 90px;
+    margin-block: 75px;
+}
+
+.table1{
+    width: 450px;
+}
+
+.table1>div{
+    border-top: 1px solid rgb(221,221,221);
+    padding-inline: 25px;
+    padding-block:15px;
+}
+
+.table1>div>span{
+    padding-inline: 10px;
+}
+
+.dashboard{
+    color: white !important;
+    background-color: rgb(8,129,121); 
+}
+
+.table2{
+    width: 900px;
+    height: 135px;
+    margin-left: 25px;
+}
+
+.table2>div{
+    border-top: 1px solid rgb(221,221,221);
+    padding-inline: 25px;
+    padding-block:15px;
+}
+
+.heading{
+    font-weight: 600;
+    background-color: rgb(237, 237, 237);
+}
 
 /* Footer */
 /* Section 1 */
