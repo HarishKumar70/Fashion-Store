@@ -44,11 +44,11 @@ nav{
 /* Header 3rd row */
 .hrow3{
     background-color: rgb(237, 237, 237);
-    padding-left: 75px;
+    padding-left: 90px;
 }
 
 .hrow3>p{
-    padding-inline: 10px;
+    padding-right: 10px;
 }
 
 /* main section */
@@ -118,6 +118,10 @@ main{
     text-decoration: none;
     color: black;
     padding-bottom: 8px;
+}
+
+.links>a:hover{
+    color: rgb(8,129,121);
 }
 
 .sec2{
