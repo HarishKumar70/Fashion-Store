@@ -41,6 +41,36 @@ nav{
     background-color: rgb(8,129,121);
 }
 
+/* Hero Section */
+.hero{
+    width: 87vw;
+    margin: auto;
+}
+
+.hot-prom{
+    font-weight: 600;
+    color: rgb(70,90,80);
+}
+
+.fash-trend{
+    font-size: 50px;
+}
+
+.grt-coll{
+    color: rgb(8,129,121);
+    font-size: 60px;
+}
+
+.button{
+    background-color: rgb(8,129,121);
+    font-weight: 600;
+}
+
+.button:hover{
+    color: rgb(8,129,121) !important;
+    border-color: rgb(8,129,121);
+}
+
 /* Footer */
 /* Section 1 */
 .sec1{
