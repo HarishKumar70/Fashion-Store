@@ -71,6 +71,77 @@ nav{
     border-color: rgb(8,129,121);
 }
 
+/* Banner Section */
+.banner{
+    width: 85vw;
+    margin: auto;
+}
+
+.banner1{
+    background-image: url("./Images/deals-1.jpg");
+    background-size: 102% 100%;
+    width: 640px;
+    height: 500px;
+}
+
+.banner2{
+    background-image: url("./Images/deals-2.png");
+    background-size: 125% 100%;
+    width: 640px;
+    height: 500px;
+}
+
+.b-heading{
+    color: rgb(8,129,121);
+    font-weight: 600;
+}
+
+.new-cost{
+    color: rgb(255,51,75);
+    font-weight: 600;
+}
+
+.old-cost{
+    color: rgb(141,141,141);
+}
+
+.timer>p{
+    margin-top: 15px;
+    margin-inline: 10px;
+}
+
+.timer>div>div{
+    color: white;
+    background-color: rgb(8,129,121);
+    font-size: 18px;
+    font-weight: 600;
+    height: 55px;
+    width: 60px;
+    text-align: center;
+    align-content: center;
+    border-radius: 5px;
+    margin-bottom:5px;
+}
+
+.timer>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shop-now{
+    color: rgb(8,129,121);
+    border-color: rgb(8,129,121);
+    font-weight: 600;
+    padding-block: 12px !important;
+}
+
+.shop-now:hover{
+    color: white;
+    background-color: rgb(8,129,121);
+    font-weight: 600;
+}
+
 /* Footer */
 /* Section 1 */
 .sec1{
