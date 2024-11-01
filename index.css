@@ -71,23 +71,63 @@ nav{
     border-color: rgb(8,129,121);
 }
 
+/* Popular Categories */
+.categories{
+    width: 87vw;
+    margin: auto;
+}
+
+.popular{
+    color: rgb(8,129,121);
+}
+
+.pc1>div>p{
+    color: rgb(8,129,121);
+    background-color: rgb(233,246,235);
+    height: 30px;
+    width: 30px;
+    border: 1px solid rgb(209,234,213);
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: center;
+    margin-left: 10px;
+}
+
+.pc2>div{
+    border: 1px solid rgb(209,234,213);
+    border-radius: 10%;
+    margin-right: 25px;
+}
+
+.pc2>div>img{
+    width: 200px;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+.pc2>div>p{
+    text-align: center;
+    font-weight: 600;
+    padding-block: 5px;
+}
+
 /* Banner Section */
 .banner{
-    width: 85vw;
+    width: 87vw;
     margin: auto;
 }
 
 .banner1{
     background-image: url("./Images/deals-1.jpg");
     background-size: 102% 100%;
-    width: 640px;
+    width: 650px;
     height: 500px;
 }
 
 .banner2{
     background-image: url("./Images/deals-2.png");
     background-size: 125% 100%;
-    width: 640px;
+    width: 650px;
     height: 500px;
 }
 
