@@ -1,0 +1,102 @@
+/*Header 1st Row */
+.hrow1{
+    background-color: #E9F6EB;
+    border-color: rgb(8,129,121) !important;
+    padding-inline: 90px;
+}
+
+.supervalues{
+    color:#8F8F8B;
+    font-weight:700;
+}
+
+/* nav-bar */
+nav{
+    margin-inline: 80px;
+}
+
+.nav-link{
+    color: black;
+    font-weight:600 !important;
+    margin-inline: 12px;
+}
+
+.nav-link:hover{
+    color: rgb(8,129,121);
+}
+
+.active{
+    color: rgb(8,129,121) !important;
+}
+
+.searchbar{
+    width: 300px;
+}
+
+.icons{
+    margin-inline: 15px;
+}
+
+.badge{
+    background-color: rgb(8,129,121);
+}
+
+/* Header 3rd row */
+.hrow3{
+    background-color: rgb(237, 237, 237);
+    padding-left: 90px;
+}
+
+.hrow3>p{
+    padding-right: 10px;
+}
+
+/* Footer */
+/* Section 1 */
+.sec1{
+    background-color: rgb(173,204,197);
+    padding: 35px !important;
+}
+
+.info{
+    font-weight:600 !important;
+}
+
+.email{
+    width: 400px;
+}
+
+.subscribe:hover{
+    background-color: rgb(8,129,121) !important;
+}
+
+/* Section 2 */
+.links>a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding-bottom: 8px;
+}
+
+.links>a:hover{
+    color: rgb(8,129,121);
+}
+
+.sec2{
+    width: 87vw;
+    padding-left: 32px;
+}
+
+/* Section 3 & Social Icons */
+.sec3,.social{
+    width: 87vw;
+    margin: auto;
+}
+
+.fa-brands{
+    padding-right: 15px;
+}
+
+.fa-brands:hover{
+    color: rgb(8,129,121);
+}
