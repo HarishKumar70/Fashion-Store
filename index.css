@@ -248,12 +248,12 @@ nav{
 .tt:hover .tt-text::after{
     visibility: visible;
     opacity: 1;
-    top: -90%;
+    top: -85%;
 }
 
 .tt:hover .tt-text::before{
     visibility: visible;
-    top:-23%;
+    top:-20%;
     opacity: 1;
 }
 
@@ -423,6 +423,16 @@ nav{
 .shop-now:hover{
     color: rgb(8,129,121);
     border-color: rgb(8,129,121);
+}
+
+/* New Arrivals Section */
+.arrivals{
+    width: 87vw;
+    margin: auto;
+}
+
+.new-text{
+    color: rgb(8,129,121);
 }
 
 /* 4 Column Layout */
