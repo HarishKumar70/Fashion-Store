@@ -33,7 +33,12 @@ nav{
     width: 300px;
 }
 
+.search-icon{
+    cursor: pointer;
+}
+
 .icons{
+    cursor: pointer;
     margin-inline: 15px;
 }
 
@@ -91,12 +96,14 @@ nav{
     text-align: center;
     vertical-align: center;
     margin-left: 10px;
+    cursor: pointer;
 }
 
 .pc2>div{
     border: 1px solid rgb(209,234,213);
     border-radius: 10%;
     margin-right: 25px;
+    cursor: pointer;
 }
 
 .pc2>div>img{
@@ -491,7 +498,9 @@ nav{
     width: 400px;
 }
 
+
 .subscribe:hover{
+    cursor: pointer;
     background-color: rgb(8,129,121) !important;
 }
 
@@ -519,6 +528,7 @@ nav{
 }
 
 .fa-brands{
+    cursor: pointer;
     padding-right: 15px;
 }
 

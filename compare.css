@@ -33,8 +33,13 @@ nav{
     width: 300px;
 }
 
+.search-icon{
+    cursor: pointer;
+}
+
 .icons{
     margin-inline: 15px;
+    cursor: pointer;
 }
 
 .badge{
@@ -112,6 +117,7 @@ th{
 }
 
 .fa-trash-can:hover{
+    cursor: pointer;
     color: red;
 }
 
@@ -131,6 +137,7 @@ th{
 }
 
 .subscribe:hover{
+    cursor: pointer;
     background-color: rgb(8,129,121) !important;
 }
 
@@ -158,6 +165,7 @@ th{
 }
 
 .fa-brands{
+    cursor: pointer;
     padding-right: 15px;
 }
 

@@ -33,8 +33,13 @@ nav{
     width: 300px;
 }
 
+.search-icon{
+    cursor: pointer;
+}
+
 .icons{
     margin-inline: 15px;
+    cursor: pointer;
 }
 
 .badge{
@@ -315,6 +320,7 @@ main{
 }
 
 .subscribe:hover{
+    cursor: pointer;
     background-color: rgb(8,129,121) !important;
 }
 
@@ -342,6 +348,7 @@ main{
 }
 
 .fa-brands{
+    cursor: pointer;
     padding-right: 15px;
 }
 
