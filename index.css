@@ -399,6 +399,7 @@ nav{
 .timer>p{
     margin-top: 15px;
     margin-inline: 10px;
+    font-weight: bold;
 }
 
 .timer>div>div{
